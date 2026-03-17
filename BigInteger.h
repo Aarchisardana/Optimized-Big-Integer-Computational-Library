@@ -12,7 +12,6 @@ typedef struct BigInteger {
     int sign;
 } BI;
 
-
 node* newNode(int val);
 void display(BI b);
 node* createCopy(node *head);
